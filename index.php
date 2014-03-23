@@ -1,12 +1,16 @@
 <?php get_header(); ?>
 
+<div class="featured">
+    
+</div>
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <section class="article">
     <div class="container">
       <div class="articleHeader">
-        <h1 id="title"><?php the_title(); ?></h1>
+        <h1><?php the_title(); ?></h1>
       </div>
-      <article class="articleBody">
+      <article>
         <?php the_content(); ?>
       </article>
     </div>

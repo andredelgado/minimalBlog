@@ -7,34 +7,33 @@ Author: André Delgado
 Author URI: http://andreny.com
 */
 
-
-@font-face{
-	font-family: Kievit;
-	src: url("../fonts/KievitOT-Regular.otf");
-	font-style: normal;
-	font-weight: 400;
-}
-
-@font-face{
-	font-family: Kievit;
-	src: url("../fonts/KievitOT-Light.otf");
-	font-style: normal;
-	font-weight: 200;
-}
-
-@font-face{
-	font-family: Kievit;
-	src: url("../fonts/KievitOT-Medium.otf");
-	font-style: normal;
-	font-weight: 600;
-}
-
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
-header {
-	/*background-color: #6AA4B8;*/
+.featured {
 	background-color: #6AA4B8;
-	height: 400px;
+	height:400px;
+}
+
+#navbar-custom {
+	background-color: #FFF;
+	margin-bottom: 0;
+	border: 0;
+}
+
+article p {
+	font-size: 1.11em;
+	line-height: 1.5;
+	padding-bottom: 12px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ecf0f1;
+}
+
+.articleHeader h1 {
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 4.5em;	
 }
 
 .footerMenu {
@@ -46,33 +45,3 @@ footer .footerCredits {
 	background-color: #34495e;
 	min-height: 50px;
 }
-
-
-article p {
-	font-size: 1.11em;
-	line-height: 1.5;
-	padding-bottom: 12px;
-}
-
-.articleHeader h1 {
-	padding-top: 50px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-size: 4.5em;
-	
-}
-
-.articleBody {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-bottom: 1px solid #ecf0f1;
-}
-
-#navbar-custom {
-	background-color: #FFF;
-	margin-bottom: 0;
-	border: 0;
-}
-
-
-
