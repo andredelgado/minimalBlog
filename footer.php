@@ -1,5 +1,12 @@
 <footer>
-    <div class="footerCredits"></div>
+    <div class="footerCredits"><section class="colophon" role="contentinfo">
+  <small class="copyright half left">
+    © 2013
+  </small><!-- .copyright -->
+  <small class="credits half right">
+     Proudly powered by <a href="http://wordpress.org/">WordPress</a>.
+  </small><!-- .credits -->
+</section></div>
   </footer>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

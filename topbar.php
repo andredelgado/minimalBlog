@@ -13,7 +13,7 @@ Template Name: topbar
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">andre.ny</a>
+      <a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
