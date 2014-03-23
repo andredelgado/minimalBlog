@@ -1,12 +1,7 @@
     <footer>
-            <section role="contentinfo">
-      <small>
-        © 2014
-      </small>
-      <small>
-         <a href="#"><?php bloginfo('name') ?></a> Proudly powered by <a href="http://andreny.com/minimalBlog">minimalBlog Theme</a> and <a href="http://wordpress.com">Wordpress</a>.
-      </small>
-    </section>
+        <div class="credits">
+        © 2014 <a href="#"><?php bloginfo('name') ?></a> Proudly powered by <a href="http://andreny.com/minimalBlog">minimalBlog Theme</a> and <a href="http://wordpress.com">Wordpress</a>.
+        </div>
       </footer>
 
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
