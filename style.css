@@ -21,6 +21,11 @@ Author URI: http://andreny.com
 	border: 0;
 }
 
+.container-fluid {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 article {
 	padding-top: 25px;
 	padding-bottom: 25px;

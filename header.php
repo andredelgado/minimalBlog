@@ -4,12 +4,13 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <title><?php wp_title(); ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+  
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
