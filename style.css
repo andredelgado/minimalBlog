@@ -15,18 +15,22 @@ Author URI: http://andreny.com
 }
 
 #navbar-custom {
+	height: 50px;
 	background-color: #FFF;
 	margin-bottom: 0;
 	border: 0;
+}
+
+article {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ecf0f1;
 }
 
 article p {
 	font-size: 1.11em;
 	line-height: 1.5;
 	padding-bottom: 12px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-bottom: 1px solid #ecf0f1;
 }
 
 .articleHeader h1 {
