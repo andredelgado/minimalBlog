@@ -18,6 +18,10 @@ a {
     color: #2ecc71;
 }
 
+a:hover {
+	color: #27ae60;
+}
+
 .featured {
 	background-color: #f1f1f1;
 	height:400px;
@@ -54,6 +58,22 @@ article p {
 	font-family: 'Lato', sans-serif;
 	font-size: 4.5em;
     color: #333;
+}
+
+.articleHeader h1 a {
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	transition: color 1s;
+}
+
+.articleHeader h1 a:hover {
+	color: #2ecc71;
+	text-decoration: none;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	transition: color 1s;
 }
 
 .footerBar {

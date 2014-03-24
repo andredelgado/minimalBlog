@@ -6,7 +6,7 @@
   <div class="featured">
     <?php if ( has_post_thumbnail() ) { ?>
     <a href="<?php the_permalink(); ?>">
-    <?php the_post_thumbnail( 'medium', array( 'class' => 'left',
+    <?php the_post_thumbnail( 'full', array( 'class' => 'left',
             'alt'   => trim( strip_tags( $wp_postmeta->_wp_attachment_image_alt ) )
         ) ); ?>
     </a>
