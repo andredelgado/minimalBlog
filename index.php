@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="featured">
-    
+    <img src="http://www.kriesi.at/themes/enfold/files/2013/04/room.jpg" />
 </div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
