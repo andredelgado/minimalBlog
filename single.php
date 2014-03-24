@@ -15,7 +15,7 @@
   <section class="article">
     <div class="container">
       <div class="articleHeader">
-        <h1 id="title"><?php the_title(); ?></h1>
+        <h1 id="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
       </div>
       <article class="articleBody">
         <?php the_content(); ?>
