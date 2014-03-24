@@ -1,11 +1,15 @@
         <footer>
             <div class="row">
                 <div class="col-md-8">
+                  <div class="container-fluid">
                     <div class="credits">
                         © 2014 <a href="#"><?php bloginfo('name') ?></a> Proudly powered by <a href="http://andreny.com/minimalBlog">minimalBlog Theme</a> and <a href="http://wordpress.com">Wordpress</a>.
                     </div>
+                  </div>
                 </div>
                 <div class="col-md-4">
+                  <div class="container-fluid">
+                  </div>
                 </div>
             </div>
         </footer>
