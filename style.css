@@ -15,12 +15,12 @@ body {
 }
 
 .featured {
-	background-color: #6AA4B8;
+	background-color: #f1f1f1;
 	height:400px;
 }
 
 #navbar-custom {
-	height: 50px;
+	height: 70px;
 	background-color: #FFF;
 	margin-bottom: 0;
 	border: 0;
@@ -53,12 +53,12 @@ article p {
 }
 
 .footerMenu {
-	background-color: #34495e;
-	height: 400px;
+	background-color: #f1f1f1;
+	height: 270px;
 }
 
 footer {
-	background-color: #2c3e50;
+	background-color: #ecf0f1;
 	min-height: 50px;
 }
 
