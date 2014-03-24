@@ -10,8 +10,12 @@ Author URI: http://andreny.com
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
 body {
-    background-color: #F8F8F8;
-    color: #FFF;
+    background-color: #FFF;
+    color: #333;
+}
+
+a {
+    color: #2ecc71;
 }
 
 .featured {
@@ -20,7 +24,7 @@ body {
 }
 
 #navbar-custom {
-	height: 70px;
+	min-height: 50px;
 	background-color: #FFF;
 	margin-bottom: 0;
 	border: 0;
@@ -52,18 +56,17 @@ article p {
     color: #333;
 }
 
-.footerMenu {
-	background-color: #f1f1f1;
+.footerBar {
 	height: 270px;
+    background-color: #ecf0f1;
 }
 
 footer {
 	background-color: #ecf0f1;
-	min-height: 50px;
 }
 
 .credits {
+    min-height: 50px;
     padding-top: 15px;
-    color: #FFF;
-    text-align: center;
+    color: #333;
 }

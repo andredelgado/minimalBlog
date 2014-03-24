@@ -1,1 +1,3 @@
-<div class="footerMenu"></div>
+
+    <div class="footerBar">
+    </div>
